@@ -12,4 +12,4 @@ ON A.city_id = B.country_id;
 SELECT A.film_id, A.actor_id, B.category_id
 FROM sakila.film_actor A
 RIGHT JOIN sakila.film_category B
-ON A.film_id = B.category_id;inventory
+ON A.film_id = B.category_id;
